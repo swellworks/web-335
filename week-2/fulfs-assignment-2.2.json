@@ -1,0 +1,55 @@
+{
+    "Customer": {
+        "_id": 1,
+        "first_name": "Faye",
+        "last_name": "Van Roekel",
+        "date_of_birth": "1974-02-25",
+        "user_name": "vanroekel123",
+        "Invoice": [
+            {
+                "_id": 100,
+                "date_created": "2019-10-12",
+                "date_shipped": "2019-10-13",
+                "line_item_fields": [
+                    {
+                        "_id": 101,
+                        "name": "Lotion",
+                        "price": 10.00,
+                        "quantity": 1
+                    },
+                    {
+                        "_id": 102,
+                        "name": "Perfume",
+                        "price": 40.00,
+                        "quantity": 1
+                    }
+                ],
+                "subtotal": 50.00,
+                "tax": 3.50,
+                "total": 53.50
+            },
+            {
+                "_id": 200,
+                "date_created": "2019-09-20",
+                "date_shipped": "2019-09-21",
+                "line_item_fields": [
+                    {
+                        "_id": 201,
+                        "name": "LipGloss",
+                        "price": 3.00,
+                        "quantity": 3
+                    },
+                    {
+                        "_id": 202,
+                        "name": "NailPolish",
+                        "price": 5.00,
+                        "quantity": 2
+                    }
+                ],
+                "subtotal": 19.00,
+                "tax": 1.33,
+                "total": 20.33
+            }
+        ]
+    }
+}
