@@ -1,0 +1,54 @@
+{
+    "Class": {
+        "_id": 123,
+        "name": "English",
+        "Enroll": [
+            {
+                "_id": 12401,
+                "Student": {
+                    "_id": 12401,
+                    "first_name": "Doug",
+                    "last_name": "Giblets",
+                    "mi": "L"
+                },
+                "grade": "C-"
+            },
+            {
+                "_id": 62171,
+                "Student": {
+                    "_id": 62171,
+                    "first_name": "Roger",
+                    "last_name": "Pattenman",
+                    "mi": "S"
+                },
+                "grade": "B"
+            }
+        ]
+    }
+}
+{
+    "Student": {
+        "_id": 12401,
+        "first_name": "Doug",
+        "last_name": "Giblets",
+        "mi": "L",
+        "Enroll": [
+            {
+                "_id": 101,
+                "Class": {
+                    "_id": 101,
+                    "name": "English"
+                },
+                "grade": "C-"
+            },
+            {
+                "_id": 301,
+                "Class": {
+                    "_id": 301,
+                    "name": "Algebra II"
+                },
+                "grade": "B+" 
+            }
+        ]
+    }
+}
