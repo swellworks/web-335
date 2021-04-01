@@ -1,0 +1,45 @@
+{
+    "user": [
+        {
+            "user_id": 90837,
+            "name": "Doug Giblets",
+            "link_user_role": {
+                "user_role_id": "90837",
+                "role": {
+                    "role_id": "Access 1",
+                    "role_title": "PM",
+                    "link_role_permission": {
+                        "role_permission_id": "Access-1"
+                    }
+                }
+
+            }
+        },
+        {
+            "user_id": 90783,
+            "name": "Roger Patterson",
+            "link_user_role": [
+                {
+                    "user_role_id": "90783",
+                    "role": {
+                        "role_id": "Access 2",
+                        "role_title": "Manager",
+                        "link_role_permission": {
+                            "role_permission_id": "Access-2"
+                        }
+                    }
+                },
+                {
+                    "user_role_id": "90442",
+                    "role": {
+                        "role_id": "Access 3",
+                        "role_title": "Tech Lead",
+                        "link_role_permission": {
+                            "role_permission_id": "Access-3"
+                        }
+                    }
+                }
+            ]
+        }
+    ]
+}
