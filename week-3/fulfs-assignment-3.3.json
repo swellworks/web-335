@@ -1,0 +1,34 @@
+
+{
+    "publisher": {
+      "publisher_name": "Doug Giblets",
+      "publisher_code": "002266",
+      "publisher_address": "Omaha, NE 68000",
+      "book": [
+        { 
+          "book_isbn": "1790580005",
+          "book_name": "Sasquatch Hunter",
+          "book_price": 14.29,
+          "author": {
+            "author_first_name": "Doug",
+            "author_last_name": "Giblets",
+            "author_phone": "402-555-1212",
+            "author_email": "dgiblets@author.com"
+          }
+        },
+        { 
+          "book_isbn": "B07WQQXSGL",
+          "book_name": "Sasquatch: Legend Meets Science",
+          "book_price": 19.38,
+          "author": [
+            {
+              "author_first_name": "Roger",
+              "author_last_name": "Patterson",
+              "author_phone": "402-555-1313",
+              "author_email": "rpatterson@author.com"
+            }
+          ]
+        }
+      ] 
+    }
+  }
